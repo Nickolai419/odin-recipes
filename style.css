@@ -1,0 +1,106 @@
+body {
+    background-color:#f3f4f6;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-top:150px;
+}
+
+.logo {
+    width:300px;
+    margin:block;
+    margin: 0 auto; 
+}
+
+.recipes {
+    list-style:none;
+    padding:0;
+}
+
+.recipes li {
+    margin:20px auto; 
+}
+
+.recipes a {
+    display: block; 
+    width:250px; 
+    margin:0 auto; 
+    padding:20px;
+    
+
+    text-align:center;
+    text-decoration: none;
+    font-weight:bold;
+    color:black;
+    font-size:19px;
+
+    background-color:white;
+    border:2px;
+    border-radius: 15px;
+}
+.recipes a:hover {
+    background-color: #c8963f;
+}
+
+/* Sauce page */
+/* Home buttons */
+.button {
+    display:block; 
+    width:200px;
+    margin:0 auto;
+    padding:20px;
+
+    text-align:center;
+    text-decoration: none; 
+    font-weight:bold;
+    color:black;
+    font-size:15px;
+    
+    background-color:white;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.button:hover {
+    background-color: #c8963f;
+}
+
+.recipe-img {
+    border:8px solid white;
+    border-radius:10px;
+    margin-bottom: 0px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.header1 {
+    text-align: center;
+    margin:50px;
+    margin-bottom:10px;
+}
+
+.des {
+    width: 60%;
+    margin:0 auto;
+    margin-top:0px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.ing {
+    margin:0 auto;
+    width: 60%;
+    line-height: 1.5;
+    font-size:16px;
+}
+
+.ing h2 {
+    margin-bottom: 2px;
+}
+
+.ing ul {
+    margin-top:2px;
+}
